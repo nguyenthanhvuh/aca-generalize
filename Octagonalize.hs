@@ -5,7 +5,13 @@ import Data.SBV
 import Data.SBV.Internals hiding (LessEq)
 import Data.SBV.Control
 
-{- A port of Vu's 'generalize' Python script -}
+{- Port of Vu's 'generalize' Python script
+
+ Assuming `stack` is installed and can find
+ the above packages, run by entering:
+
+   stack runghc Octagonalize.hs
+-}
 
 main :: IO ()
 main = do
